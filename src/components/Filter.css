@@ -1,0 +1,30 @@
+/* Filter.css */
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  padding: 10px;
+  position: fixed;
+}
+
+label {
+  margin-right: 8px;
+}
+
+.dropdown {
+  margin-right: 16px;
+}
+
+/* Style for the dropdowns */
+select {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown label {
+  font-weight: bold;
+}
+
+/* Add more styles as needed */

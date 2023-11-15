@@ -1,0 +1,60 @@
+  .card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .id {
+    font-size: 14px;
+    font-weight: bold;
+    color: #76787b;
+    margin-right: 16px;
+  }
+  
+  .profile-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 18px;
+    color: #76787b;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .content h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .content p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 8px;
+    background-color: #f9f2f2;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .ellipsis-icon {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #76787b;
+  }
+  

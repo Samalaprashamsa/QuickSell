@@ -1,0 +1,36 @@
+/* Board.css */
+.board {
+  display: flex;
+  position:relative;
+  padding: 10px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 12%;
+}
+
+.action-icons {
+  display: flex;
+}
+
+.add-icon,
+.ellipsis-icon {
+  font-size: 15px;
+  margin-left: 8px;
+  color: #3c3f42;
+}
