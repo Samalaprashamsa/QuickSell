@@ -15,14 +15,14 @@ const Filter = ({ setGroupingOption, setOrderingOption }) => {
     <div className="filter">
       <label>Display: </label>
 
-      {/* Display Dropdown with Group By options */}
+      
       <select onChange={(e) => handleGroupingChange(e)}>
         <option value="group-status">Group by Status</option>
         <option value="group-user">Group by User</option>
         <option value="group-priority">Group by Priority</option>
       </select>
 
-      {/* Display Dropdown with Order By options */}
+      
       <select onChange={(e) => handleOrderingChange(e)}>
         <option value="order-priority">Order by Priority</option>
         <option value="order-title">Order by Title</option>
