@@ -1,4 +1,3 @@
-// Board.js
 import React, { useState, useEffect } from 'react';
 import { fetchData } from '../utils/api';
 import Card from './Card';
